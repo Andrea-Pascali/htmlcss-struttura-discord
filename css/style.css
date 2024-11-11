@@ -2,19 +2,104 @@
      RESET
 --------------------*/
 
-*{
-     margin:0;
-     padding:0
+* {
+     margin: 0;
+     padding: 0;
      box-sizing: border-box;
-     
 }
+
+/*------------------
+     GENERAL
+--------------------*/
+.conteiner {
+     max-width: 1200px;
+     margin-left: auto;
+     margin-right: auto; 
+
+}
+
 
 
 /*------------------
      HEADER
 --------------------*/
 
-header{
-     min-height: 200;
-     background-color: aquamarine;
+header {
+     background-color: #add8e6;
+     padding: 15px;
+     color: black;
+     font-size: 20px;
+
+
+
 }
+
+.nav-left{
+     
+     background-color: #daa520;
+     width: 20%;
+     height: 40px;
+     border: dashed black;
+     padding: 5px;
+    
+}
+
+.nav-center{
+
+     background-color: #daa520;
+     width: 60%;
+     text-align: center;
+     border: dashed black;
+     padding: 5px;
+
+}
+
+.nav-right{
+
+     background-color: #daa520;
+     width: 20%;
+     border: dashed black;
+     text-align: right;
+     padding: 5px;
+}
+
+
+
+header > .conteiner {
+     display: flex;
+     justify-content: space-around;
+     
+}
+
+.header-bottom{
+
+     background-color: #00008b;
+     min-height: 500px;
+     padding: 55px;
+     color: black;
+     box-shadow: 0 5px 0px #add8e6;
+     
+
+}
+
+.hero{
+     background-color: #ee82ee;
+     border: dashed black;
+     width: 880px;
+     min-height: 380px;
+
+}
+
+header > .hero {
+     display: flex;
+     margin: auto;
+     
+     
+}
+
+
+
+
+/*------------------
+     MAIN
+--------------------*/
