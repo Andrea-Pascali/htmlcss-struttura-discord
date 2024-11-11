@@ -99,7 +99,90 @@ header > .hero {
 
 
 
+/*------------------
+     MAIN-SECTION
+--------------------*/
+
+.conteiner-top{
+     display: flex;
+     width: 1200px;
+     margin: auto;
+     min-height: 500px;
+     margin-top: 30px;
+     background-color: crimson;
+
+     
+}
+
+
+.col-big{
+     
+    
+     background-color: #1e90ff;
+     margin: auto;
+     border: dashed black;
+     width: 800px;
+     min-height: 500px;
+
+}
+
+.col-small{
+     
+     
+     background-color: #ffc0cb;
+     margin: auto;
+     border: dashed black;
+     width: 480px;
+     min-height: 500px;
+
+}
+
+
 
 /*------------------
-     MAIN
+    MAIN-CENTER
 --------------------*/
+
+.conteiner-center{
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     min-height: 500px;
+     margin-top: 30px;
+     background-color: #d3d3d3;
+
+}
+
+
+
+
+.col-center-left{
+
+
+     background-color: #ffc0cb;
+     margin: auto;
+     border: dashed black;
+     width: 480px;
+     min-height: 500px;
+     margin: 0px;
+     
+
+
+}
+
+
+.col-center-right{
+     
+     
+     background-color: #1e90ff;
+     margin: auto;
+     border: dashed black;
+     width: 723px;
+     min-height: 500px;
+     margin: 0px;
+
+}
+
+
+
+
