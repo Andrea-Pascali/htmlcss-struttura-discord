@@ -1,0 +1,20 @@
+/*------------------
+     RESET
+--------------------*/
+
+*{
+     margin:0;
+     padding:0
+     box-sizing: border-box;
+     
+}
+
+
+/*------------------
+     HEADER
+--------------------*/
+
+header{
+     min-height: 200;
+     background-color: aquamarine;
+}
