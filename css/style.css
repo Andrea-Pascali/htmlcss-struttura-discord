@@ -186,3 +186,22 @@ header > .hero {
 
 
 
+.col-big-green{
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     min-height: 500px;
+     margin-top: 30px;
+     background-color: #d3d3d3;
+}
+
+
+.big-green{
+     background-color: #228b22;
+     margin: auto;
+     border: dashed black;
+     width: 1200px;
+     min-height: 500px;
+     margin: 0px;
+
+}
